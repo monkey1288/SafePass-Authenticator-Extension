@@ -8,9 +8,15 @@
     "dev": "plasmo dev",
     "build": "plasmo build",
     "package": "plasmo package",
-    "dev_firefox": "plasmo dev --target firefox",
-    "build_firefox": "plasmo build --target firefox",
-    "package_firefox": "plasmo package --target firefox"
+    "dev_firefox": "plasmo dev --target=firefox",
+    "build_firefox": "plasmo build --target=firefox",
+    "package_firefox": "plasmo package --target=firefox",
+    "dev_edge": "plasmo dev --target=edge-mv3",
+    "build_edge": "plasmo build --target=edge-mv3",
+    "package_edge": "plasmo package --target=edge-mv3",
+    "dev_safari": "plasmo dev --target=safari-mv3",
+    "build_safari": "plasmo build --target=safari-mv3",
+    "package_safari": "plasmo package --target=safari-mv3"
   },
   "dependencies": {
     "plasmo": "0.90.5",
